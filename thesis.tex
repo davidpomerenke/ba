@@ -1,0 +1,66 @@
+\documentclass{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{apacite}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{graphicx}
+\usepackage{avant}
+\usepackage{verbatim}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    linkcolor=blue,
+    urlcolor=blue
+}
+\renewcommand{\baselinestretch}{1.5} 
+\renewcommand{\familydefault}{\sfdefault}
+
+\title{The argument against neutrality}
+\author{David Pomerenke}
+\date{2019/12/31}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+        \huge
+        The argument against neutrality\\
+        \large
+        David Pomerenke
+        \vfill
+        Supervised by\\
+        Stefan Fischer\\
+        Jacob Rosenthal
+        \vfill
+        A thesis presented for the degree of\\
+        Bachelor of Arts
+        \vfill
+        \includegraphics[width=1.5cm]{0-logo}\\
+        Department of Philosophy\\
+        University of Konstanz\\
+        Germany\\
+        December 2019
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+
+\input{0-introduction}
+\input{1-welfare}
+\input{2-intuition}
+\input{3-argument}
+\input{4-objection-1}
+\input{5-objection-2}
+\input{6-objection-3}
+\input{7-conclusion}
+\input{8-count}
+
+\bibliographystyle{apacite}
+\bibliography{9-bibliography}
+
+\emph{Note:} Source files and bibliography for this document are publicly available \href{https://github.com/davidpomerenke/ba}{on Github}.
+
+\end{document}
