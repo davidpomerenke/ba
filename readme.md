@@ -914,7 +914,7 @@ intuition. The intuition of neutrality might actually be right.
 -   impact on climate change? we need not care about unborn people and
     can make more straight calculations
 
-*49651 characters, 8117 words* (Pomerenke 2017)
+*characters, words* (Pomerenke 2017)
 
 *Note:* Source files and bibliography for this document are publicly
 available [on Github](https://github.com/davidpomerenke/ba).
