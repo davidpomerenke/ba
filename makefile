@@ -21,4 +21,4 @@ md: thesis.tex count
 	cat info.md thesis.md > readme.md
 
 clean:
-	rm count* readme.md thesis.4ct thesis.4tc thesis.aux thesis.bbl thesis.blg thesis.dvi thesis.idv thesis.lg thesis.log thesis.out thesis.tmp thesis.toc thesis.xref thesis*.png
+	rm count* thesis.4ct thesis.4tc thesis.aux thesis.bbl thesis.blg thesis.dvi thesis.idv thesis.lg thesis.log thesis.out thesis.tmp thesis.toc thesis.xref thesis*.png
