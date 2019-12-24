@@ -79,21 +79,19 @@ to guide democratic policy decisions. This essay is set within this
 democratic discourse and aims to defend a supposedly widespread
 intuition whose consistency has been challenged from the academic side.
 
-The core of welfare economics is the welfare function (see <span
-id="ref:RNDwEYvso2F3F"
-label="ref:RNDwEYvso2F3F">\[ref:RNDwEYvso2F3F\]</span>Harsanyi 1955, p.
-309). It is an aggregation function: a function which takes in the
-individual levels of well-being of several individual persons,  and
-delivers the level of welfare for the whole aggregated population
-comprising these individual persons. Well-being and welfare (which
-refers to aggregated well-being) are abstract terms. They are usually
-interpreted as a representation of preferences over different lives. But
-they can also be interpreted simply as hedonistic levels of lifetime
-pleasure, which will be sufficient for the purpose of this essay.
-Well-being (or utility) of a person p is denoted by u(p); individual
-persons are denoted by pi – the subscript is just there to differentiate
-between different persons. In similar fashion, welfare of a population P
-= { p1, p2, …, pn } is denoted by u(P).
+The core of welfare economics is the welfare function (see (Harsanyi
+1955, 309), Harsanyi 1955, p. 309). It is an aggregation function: a
+function which takes in the individual levels of well-being of several
+individual persons,  and delivers the level of welfare for the whole
+aggregated population comprising these individual persons. Well-being
+and welfare (which refers to aggregated well-being) are abstract terms.
+They are usually interpreted as a representation of preferences over
+different lives. But they can also be interpreted simply as hedonistic
+levels of lifetime pleasure, which will be sufficient for the purpose of
+this essay. Well-being (or utility) of a person p is denoted by u(p);
+individual persons are denoted by pi – the subscript is just there to
+differentiate between different persons. In similar fashion, welfare of
+a population P = { p1, p2, …, pn } is denoted by u(P).
 
   Definition 1: Welfare function
 
@@ -923,10 +921,15 @@ intuition. The intuition of neutrality might actually be right.
 -   impact on climate change? we need not care about unborn people and
     can make more straight calculations
 
-8115 words, 49645 characters (Pomerenke 2017)
+8120 words, 49645 49652 49658 49664 49670 49676 characters (Pomerenke
+2017)
 
 *Note:* Source files and bibliography for this document are publicly
 available [on Github](https://github.com/davidpomerenke/ba).
+
+Harsanyi, John C. 1955. “Cardinal Welfare, Individualistic Ethics, and
+Interpersonal Comparisons of Utility.” *Journal of Political Economy* 63
+(4): 309–21. <https://doi.org/10/cdh3fr>.
 
 Pomerenke, David. 2017. “Nach Welchen Prinzipien Sollte Der Staat Die
 Verteilung von Gütern Gestalten? Eine Systematische Darstellung Der
