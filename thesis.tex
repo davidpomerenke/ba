@@ -28,41 +28,22 @@
 \renewcommand{\baselinestretch}{1.5} 
 \renewcommand{\familydefault}{\sfdefault}
 
+% math font sans serif
+\usepackage[cm]{sfmath}
+
 % definition boxes
 \usepackage[most]{tcolorbox}
-\newtcbtheorem{Definition}{Definition}{
-  enhanced,
-  sharp corners,
-  attach boxed title to top left={
-    yshifttext=-1mm
-  },
-  colback=white,
-  colframe=blue!75!black,
-  fonttitle=\bfseries,
-  boxed title style={
-    sharp corners,
-    size=small,
-    colback=blue!75!black,
-    colframe=blue!75!black,
-  } 
-}{def}
-\newtcbtheorem[no counter]{Theorem}{Theorem}{
-  enhanced,
-  sharp corners,
-  attach boxed title to top left={
-    yshifttext=-1mm
-  },
-  colback=white,
-  colframe=blue!25,
-  fonttitle=\bfseries,
-  coltitle=black,
-  boxed title style={
-    sharp corners,
-    size=small,
-    colback=blue!25,
-    colframe=blue!25,
-  } 
-}{thm}
+\input{boxes}
+
+% better table
+\usepackage{booktabs}
+\usepackage{adjustbox}
+\newcommand*\rot{\rotatebox{90}}
+
+% ticks
+\usepackage{pifont}
+\newcommand*\yo{\ding{51}}
+\newcommand*\no{\ding{53}}
 
 \title{The argument against neutrality}
 \author{David Pomerenke}
@@ -94,6 +75,8 @@
 \end{titlepage}
 
 \tableofcontents
+\vfill
+\small This work is licensed under a \href{http://creativecommons.org/licenses/by/4.0/}{Creative Commons Attribution 4.0 International License}. Source files and bibliography are publicly available \href{https://github.com/davidpomerenke/ba}{on Github}.
 
 \input{0-introduction}
 \input{1-welfare}
@@ -108,7 +91,5 @@
 
 \bibliographystyle{apacite}
 \bibliography{bibliography}
-
-\emph{Note:} Source files and bibliography for this document are publicly available \href{https://github.com/davidpomerenke/ba}{on Github}.
 
 \end{document}

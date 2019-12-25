@@ -79,21 +79,23 @@ to guide democratic policy decisions. This essay is set within this
 democratic discourse and aims to defend a supposedly widespread
 intuition whose consistency has been challenged from the academic side.
 
-The core of welfare economics is the welfare function (see (Harsanyi
-1955, 309), Harsanyi 1955, p. 309). It is an aggregation function: a
-function which takes in the individual levels of well-being of several
-individual persons,  and delivers the level of welfare for the whole
-aggregated population comprising these individual persons. Well-being
-and welfare (which refers to aggregated well-being) are abstract terms.
-They are usually interpreted as a representation of preferences over
-different lives. But they can also be interpreted simply as hedonistic
-levels of lifetime pleasure, which will be sufficient for the purpose of
-this essay. Well-being (or utility) of a person p is denoted by u(p);
-individual persons are denoted by pi – the subscript is just there to
-differentiate between different persons. In similar fashion, welfare of
-a population P = { p1, p2, …, pn } is denoted by u(P).
+The core of welfare economics is the welfare function (see ). It is an
+aggregation function: a function which takes in the individual levels of
+well-being of several individual persons,  and delivers the level of
+welfare for the whole aggregated population comprising these individual
+persons. Well-being and welfare (which refers to aggregated well-being)
+are abstract terms. They are usually interpreted as a representation of
+preferences over different lives. But they can also be interpreted
+simply as hedonistic levels of lifetime pleasure, which will be
+sufficient for the purpose of this essay. Well-being (or utility) of a
+person p is denoted by u(p); individual persons are denoted by pi – the
+subscript is just there to differentiate between different persons. In
+similar fashion, welfare of a population *P* = {*p*1, *p*2, …, *p**n*}
+is denoted by *u*(*P*).
 
-  Definition 1: Welfare function
+Welfare Function $w: \\hfill
+  \\mathbb{R}\_+^{|P|} \\rightarrow \\mathbb{R}\_+, \\hfill
+  \\{ u(p1), u(p2), …, u(pn) \\} \\mapsto u( \\{ p1, p2, …, p\_n \\} )$
 
 The content of the general welfare function is intentionally
 unspecified. The function is just a vehicle for discussion within
@@ -119,24 +121,17 @@ discussion: They are consequentialist. This means that they only
 evaluate actions by their outcome and in this context specifically by
 their impact on general welfare or goodness. Other elements of ethical
 evaluation, such as the procedural requirements of justice, will have to
-be considered separately (cf. <span id="ref:RNDcQ2WyYJ8nc"
-label="ref:RNDcQ2WyYJ8nc">\[ref:RNDcQ2WyYJ8nc\]</span>Broome 2005, p.
-401; <span id="ref:RNDc3AhfEFA9H"
-label="ref:RNDc3AhfEFA9H">\[ref:RNDc3AhfEFA9H\]</span>Broome 2012, p.
-99f). These separate considerations will often require consequentialist
-considerations as their basis, so this discussion may also be indirectly
-relevant for them.
+be considered separately (cf. ; ). These separate considerations will
+often require consequentialist considerations as their basis, so this
+discussion may also be indirectly relevant for them.
 
 The intuition of neutrality
 ---------------------------
 
 The intuition of neutrality is assumed to be a widespread ethical
-intuition among humans (<span id="ref:RND5BNnNe71j8"
-label="ref:RND5BNnNe71j8">\[ref:RND5BNnNe71j8\]</span>Broome 2012, p.
-176f). The content of the intuition is also called the principle of
-equal existence (<span id="ref:RNDaWHBLx2kgv"
-label="ref:RNDaWHBLx2kgv">\[ref:RNDaWHBLx2kgv\]</span>Broome 2004, p.
-146). The following is the content of the definition: Let us assume two
+intuition among humans (Broome 2012, 176f). The content of the intuition
+is also called the principle of equal existence (Broome 2004, 146). The
+following is the content of the definition: Let us assume two
 hypothetical scenarios A and B. The same people exist in both scenarios,
 except that in scenario B there are some additional people which do not
 exist in scenario A. The intuition says that which one of the scenarios
@@ -150,13 +145,21 @@ welfare in scenario A, and scenario B is better in terms of welfare if
 the people who exist in both populations have a higher welfare in
 scenario B.
 
-We can formalize the scenarios as different welfare distributions uA and
-uB. Let P0 be a population of people who exist in both scenarios but
-need not have the same levels of well-being in both scenarios. Let P+ be
-the population of people who exist only in scenario B. Let \[u1, u2\] be
-the neutral range of well-being for added people.
+We can formalize the scenarios as different welfare distributions
+*u*<sub>*A*</sub> and *u*<sub>*B*</sub>. Let *P*<sub>0</sub> be a
+population of people who exist in both scenarios but need not have the
+same levels of well-being in both scenarios. Let *P*<sub>+</sub> be the
+population of people who exist only in scenario B. Let
+\[*u*<sub>1</sub>, *u*<sub>2</sub>\] be the neutral range of well-being
+for added people.
 
-Definition 2: The intuition of neutrality
+The intuition of neutralityion ∃*u*<sub>1</sub>, *u*<sub>2</sub>:
+
+(∀*x* ∈ *P*<sub>+</sub> : *u*<sub>*B*</sub>(*x*) ∈ \[*u*<sub>1</sub>, *u*<sub>2</sub>\])→
+
+(*u*<sub>*B*</sub>(*P*<sub>0</sub>) &gt; *u*<sub>*A*</sub>(*P*<sub>0</sub>) → *u*<sub>*B*</sub>(*P*<sub>0</sub> ∪ *P*<sub>+</sub>) &gt; *u*<sub>*A*</sub>(*P*<sub>0</sub>)) ∧
+
+(*u*<sub>*B*</sub>(*P*<sub>0</sub>) &lt; *u*<sub>*A*</sub>(*P*<sub>0</sub>) → *u*<sub>*B*</sub>(*P*<sub>0</sub> ∪ *P*<sub>+</sub>) &lt; *u*<sub>*A*</sub>(*P*<sub>0</sub>))
 
 This formal definition is to be interpreted in the following way: It
 does not matter in terms of welfare whether there exists an additional
@@ -173,26 +176,23 @@ calculation of general well-being. (Arguably, the welfare would increase
 because of the added person.)
 
 An exemplary application of the intuition is the evaluation of road
-safety (<span id="ref:RNDiZrz5y32ax"
-label="ref:RNDiZrz5y32ax">\[ref:RNDiZrz5y32ax\]</span>Broome 2004, p.
-144f). In this context, the deaths of people dying in accidents must be
-weighed against the costs of preventing them. Whilst this is an
-ethically difficult problem on its own, one important long-term effect
-is usually left aside: The well-being of the expected potential
-offspring of the potentially dying person is completely neglected. One
-possible justification is the intuition of neutrality: We can expect the
-offspring to live within the neutral range of well-being and it is
-therefore neither positive nor negative whether they exist or not.
+safety (Broome 2004, 144f). In this context, the deaths of people dying
+in accidents must be weighed against the costs of preventing them.
+Whilst this is an ethically difficult problem on its own, one important
+long-term effect is usually left aside: The well-being of the expected
+potential offspring of the potentially dying person is completely
+neglected. One possible justification is the intuition of neutrality: We
+can expect the offspring to live within the neutral range of well-being
+and it is therefore neither positive nor negative whether they exist or
+not.
 
 Another example is the evaluation of different scenarios of global
-warming (<span id="ref:RNDoULCN0LnjP"
-label="ref:RNDoULCN0LnjP">\[ref:RNDoULCN0LnjP\]</span>Broome 2012, p.
-170). Global warming is likely to kill many people and thereby to
-prevent their offspring from existing. On the other hand, global warming
-may increase poverty, which is associated with higher birth rates.
-Thanks to the intuition of neutrality we can simply leave both of these
-effects aside in many of our evaluations – which comes handy as
-predictions in these domains attend to an enormous amount of
+warming (Broome 2012, 170). Global warming is likely to kill many people
+and thereby to prevent their offspring from existing. On the other hand,
+global warming may increase poverty, which is associated with higher
+birth rates. Thanks to the intuition of neutrality we can simply leave
+both of these effects aside in many of our evaluations – which comes
+handy as predictions in these domains attend to an enormous amount of
 uncertainty.
 
 It is important to understand that the intuition of neutrality does not
@@ -200,12 +200,10 @@ imply neutrality about the consequences on the existing population which
 are caused by the additional population. These consequences may be
 negative or positive, leading to contrary political reactions such as
 China’s restrictive one-child-policy and Europe’s reproduction-promoting
-policy (<span id="ref:RNDXP2aYAu98y"
-label="ref:RNDXP2aYAu98y">\[ref:RNDXP2aYAu98y\]</span>Broome 2012, p.
-169). The consequences on the existing population may well determine
-whether additional people are good or not. Only the well-being of the
-additional people themselves does not do so according to the intuition
-of neutrality.
+policy (Broome 2012, 169). The consequences on the existing population
+may well determine whether additional people are good or not. Only the
+well-being of the additional people themselves does not do so according
+to the intuition of neutrality.
 
 The question whether the intuition of neutrality is in fact a widespread
 intuition among humans appears not to have been investigated. It is not
@@ -218,17 +216,11 @@ to investigate the empirical prevalence of the intuition.
 The argument against neutrality
 -------------------------------
 
-The argument against neutrality (<span id="ref:RNDVrb2Fg6EjX"
-label="ref:RNDVrb2Fg6EjX">\[ref:RNDVrb2Fg6EjX\]</span>Broome 2012, p.
-177f., where the figure below is also copied from) concludes that the
-intuition of neutrality is inconsistent. The argument is a version of
-the mere addition paradox (<span id="ref:RNDn8ybKRhpdp"
-label="ref:RNDn8ybKRhpdp">\[ref:RNDn8ybKRhpdp\]</span>Broome 2004, p.
-148) and a modification of the adoption problem (<span
-id="ref:RND0coQvEEBxt"
-label="ref:RND0coQvEEBxt">\[ref:RND0coQvEEBxt\]</span>Broome 2004, p.
-161). It is based on the following counter-example to the intuition of
-neutrality:
+The argument against neutrality (, where the figure below is also copied
+from) concludes that the intuition of neutrality is inconsistent. The
+argument is a version of the mere addition paradox (Broome 2004, 148)
+and a modification of the adoption problem (Broome 2004, 161). It is
+based on the following counter-example to the intuition of neutrality:
 
 <img src="3-fig-1" style="width:80.0%" alt="image" />
 
@@ -262,30 +254,21 @@ result of step one, so the counter-example refutes the intuition of
 neutrality, which has been its core assumption.
 
 Whilst the argument above is intuitively plausible, it has two other
-important premises (<span id="ref:RNDcNWwD0bGcJ"
-label="ref:RNDcNWwD0bGcJ">\[ref:RNDcNWwD0bGcJ\]</span>Broome 2012, p.
-177f): First, if in two scenarios all persons have the same level of
-well-being except for one person who is better off in the second
-scenario, then the welfare in the second scenario is higher than in the
-first. Technically, the second scenario Pareto dominates the first
-(<span id="ref:RNDe8Jgwq2mlh"
-label="ref:RNDe8Jgwq2mlh">\[ref:RNDe8Jgwq2mlh\]</span>Osborne 1997).
-Second, if in two scenarios with the same population the sum of
-individual well-being is higher in the second scenario, and at the same
-time the inequality of the distribution of well-being is lower in the
-second scenario, then the second scenario is better in terms of welfare
-than the first. I call this the fair aggregation principle. There are
-various ways to measure inequality, and the details need not concern us
-here. An excellent survey of one-dimensional inequality measures – as
-applied in welfare economics – is given in <span id="ref:RNDgO1lcEIWbu"
-label="ref:RNDgO1lcEIWbu">\[ref:RNDgO1lcEIWbu\]</span>Sen & Foster 1997.
-The most prominent inequality measure is probably the Gini coefficient
-(see <span id="ref:RNDJkmhvOr2SL"
-label="ref:RNDJkmhvOr2SL">\[ref:RNDJkmhvOr2SL\]</span>Ceriani & Verme
-2012). Both of these premises appear to be very plausible, and they are
-dubbed “hard-to-doubt assumptions” in <span id="ref:RNDUBSa4lnZMJ"
-label="ref:RNDUBSa4lnZMJ">\[ref:RNDUBSa4lnZMJ\]</span>Broome 2012, p.
-176.
+important premises (Broome 2012, 177f): First, if in two scenarios all
+persons have the same level of well-being except for one person who is
+better off in the second scenario, then the welfare in the second
+scenario is higher than in the first. Technically, the second scenario
+Pareto dominates the first (Osborne 1997). Second, if in two scenarios
+with the same population the sum of individual well-being is higher in
+the second scenario, and at the same time the inequality of the
+distribution of well-being is lower in the second scenario, then the
+second scenario is better in terms of welfare than the first. I call
+this the fair aggregation principle. There are various ways to measure
+inequality, and the details need not concern us here. An excellent
+survey of one-dimensional inequality measures – as applied in welfare
+economics – is given in . The most prominent inequality measure is
+probably the Gini coefficient (see ). Both of these premises appear to
+be very plausible, and they are dubbed “hard-to-doubt assumptions” in .
 
 The following formalization concisely sums up the argument presented
 above. It is structured in technical premises (P...), the assumptions
@@ -298,30 +281,48 @@ counter-example and there is no reason to doubt them within this proof.
 Moreover, premises (P2) and (P3) appear to be very plausible. As a
 consequence, the intuition of neutrality must be the false premise.
 
-Proof 1: The argument against neutrality
+The argument against neutralityarg
+
+1.  Intuition of neutrality (see Definition
+    <a href="#def:ion" data-reference-type="ref" data-reference="def:ion">[def:ion]</a>)
+
+2.  Transitivity of betterness:  
+    $u\_X(P\_X) &gt; u\_Y(P\_Y) \\wedge u\_Y(P\_Y) &gt; u\_Z(P\_Z) \\\\
+        \\rightarrow
+        u\_X(P\_X) &gt; u\_Z(P\_Z)$
+
+3.  Pareto domination
+
+    1.  ∃*p* ∈ *P*:  
+        *u*<sub>*X*</sub>(*a*) &gt; *u*<sub>*Y*</sub>(*p*) ∧  
+        ∀*q* ∈ *P* \\ {*p*} : *u*<sub>*X*</sub>(*q*) = *u*<sub>*Y*</sub>(*q*))  
+         → *u*<sub>*X*</sub>(*P*) &gt; *u*<sub>*Y*</sub>(*P*)
+
+    2.  ∃*p* ∈ *P*:  
+        *u*<sub>*X*</sub>(*a*) &lt; *u*<sub>*Y*</sub>(*p*) ∧  
+        ∀*q* ∈ *P* \\ {*p*} : *u*<sub>*X*</sub>(*q*) = *u*<sub>*Y*</sub>(*q*))  
+         → *u*<sub>*X*</sub>(*P*) &lt; *u*<sub>*Y*</sub>(*P*)
+
+4.  Fair aggregation principle:  
+    $\\sum\_{p\\in P} u\_X(p) &gt; \\sum\_{p\\in P} u\_Y(p) \\ \\wedge \\\\
+        g\_X(P) &lt; g\_Y(P) \\\\
+        \\rightarrow u\_X(P) &gt; u\_Y(P)$  
+    with suitable inequality function *g* (see above).
 
 There are two implications if this argument holds and the intuition of
-neutrality is inconsistent (cf. <span id="ref:RNDvHVBymXoLa"
-label="ref:RNDvHVBymXoLa">\[ref:RNDvHVBymXoLa\]</span>Broome 2005, p.
-411): First, we as a society would have to develop a different,
-consistent principle to replace the intuition. We do not even currently
-know whether population changes should be evaluated as positive or as
-negative, just that they cannot simply be evaluated as neutral. The
-finding of a new principle with wide acceptance would certainly present
-a major societal task and require many years of discourse. Second, we
-would need to gain better knowledge of which actions lead to which
-consequences with respect to population changes. Only then would we
-probably be able to apply a principle which is not based on neutrality.
-This requires new scientific analysis and simulation because such
-predictions have often been omitted in the past (<span
-id="ref:RND54So3qk8SK"
-label="ref:RND54So3qk8SK">\[ref:RND54So3qk8SK\]</span>Broome 2005, p.
-402; <span id="ref:RNDJG5XuCbvIG"
-label="ref:RNDJG5XuCbvIG">\[ref:RNDJG5XuCbvIG\]</span>Broome 2012, p.
-115f).
+neutrality is inconsistent (cf. : First, we as a society would have to
+develop a different, consistent principle to replace the intuition. We
+do not even currently know whether population changes should be
+evaluated as positive or as negative, just that they cannot simply be
+evaluated as neutral. The finding of a new principle with wide
+acceptance would certainly present a major societal task and require
+many years of discourse. Second, we would need to gain better knowledge
+of which actions lead to which consequences with respect to population
+changes. Only then would we probably be able to apply a principle which
+is not based on neutrality. This requires new scientific analysis and
+simulation because such predictions have often been omitted in the past
+(; ).
 
-<span id="ref:RNDoGhae544eI"
-label="ref:RNDoGhae544eI">\[ref:RNDoGhae544eI\]</span>Broome 2004
 develops five possible modifications to respond to the argument against
 neutrality (see p. 149):
 
@@ -360,18 +361,13 @@ that at least one person is better off in this scenario than in the
 other while all other persons are at an equal level of well-being. The
 Pareto principle I have formulated as (P2) says that in such cases the
 scenario has a higher welfare than the other one. This principle, as
-well as the extending requirement of Pareto efficiency (cf. <span
-id="ref:RND8Hv7yXwRou"
-label="ref:RND8Hv7yXwRou">\[ref:RND8Hv7yXwRou\]</span>Osborne 1997),
-find their due place in economics where the objective is the efficient
-allocation of scarce resources (<span id="ref:RNDutDkBfheMg"
-label="ref:RNDutDkBfheMg">\[ref:RNDutDkBfheMg\]</span>Samuelson &
-Nordhaus 2010, p. 4). However I doubt that they are suitable as ethical
-principles. Pareto efficiency has been criticized because the liberal
-paradox suggests that it may be incompatible with procedural elements of
-liberalism (see <span id="ref:RNDiYsz4NL9rY"
-label="ref:RNDiYsz4NL9rY">\[ref:RNDiYsz4NL9rY\]</span>Sen & Foster
-1997). But I believe that there is a more general problem with Pareto
+well as the extending requirement of Pareto efficiency (cf. ), find
+their due place in economics where the objective is the efficient
+allocation of scarce resources (Samuelson and Nordhaus 2010, 4). However
+I doubt that they are suitable as ethical principles. Pareto efficiency
+has been criticized because the liberal paradox suggests that it may be
+incompatible with procedural elements of liberalism (see (Sen and Foster
+1997)). But I believe that there is a more general problem with Pareto
 efficiency and even with Pareto domination: Consider a large population
 with one person whose well-being is much higher than the well-being of
 the others. Is it ethically desirable – is there a higher welfare – if
@@ -427,33 +423,25 @@ STRUCTURE!!! 1. pareto stuff, 2. fair aggregation
 For this objection I will use as a specific welfare function the
 difference principle. The difference principle is a concept which is
 inferred from an analysis of justice. Its justification as the second
-principle of justice is given and discussed in <span
-id="ref:RNDaX1kFAqXc5"
-label="ref:RNDaX1kFAqXc5">\[ref:RNDaX1kFAqXc5\]</span>Rawls 2005, pp.
-3-183. Rivalling average utilitarianism, the difference principle is
-probably the most prominent and most widely accepted welfare function.
-In its core formula, the difference principle states that differences
-from socioeconomic equality are only permitted if they are to the
-benefit of the least advantaged (<span id="ref:RND4PXINhR0Cj"
-label="ref:RND4PXINhR0Cj">\[ref:RND4PXINhR0Cj\]</span>Rawls 2005, p.
-302). This is equivalent to optimizing the status of the least
-advantaged. The difference principle is therefore usually translated to
-a welfare function where general welfare is determined only by the
-well-being of the group with the lowest level of well-being. (Such
-translation commits a major error in ignoring the difference between
-primary goods and well-being as I discuss in <span
-id="ref:RNDxfDrFqEWzs"
-label="ref:RNDxfDrFqEWzs">\[ref:RNDxfDrFqEWzs\]</span>Pomerenke 2017,
-p.12f. – But this does not bear upon the reasoning here, which is based
-solely on Pareto comparisons.) Whilst the difference principle refers to
-the least advantaged group – which makes sense in application – there is
-no mistake in referring to the least advantaged person for the sake of
+principle of justice is given and discussed in (Rawls 2005, 3–183).
+Rivalling average utilitarianism, the difference principle is probably
+the most prominent and most widely accepted welfare function. In its
+core formula, the difference principle states that differences from
+socioeconomic equality are only permitted if they are to the benefit of
+the least advantaged (Rawls 2005, 302). This is equivalent to optimizing
+the status of the least advantaged. The difference principle is
+therefore usually translated to a welfare function where general welfare
+is determined only by the well-being of the group with the lowest level
+of well-being. (Such translation commits a major error in ignoring the
+difference between primary goods and well-being as I discuss in . – But
+this does not bear upon the reasoning here, which is based solely on
+Pareto comparisons.) Whilst the difference principle refers to the least
+advantaged group – which makes sense in application – there is no
+mistake in referring to the least advantaged person for the sake of
 theory. Because of its resemblance to the decision-theoretic rule of
 minimum maximization, this formulation of the principle has also been
 called the Maximin rule. (Although this labelling has been rightly
-criticized in <span id="ref:RND4jKuJkTAlW"
-label="ref:RND4jKuJkTAlW">\[ref:RND4jKuJkTAlW\]</span>Rawls & Kelly
-2001, p. 43.)
+criticized in .)
 
 Definition 3: Difference principle / “Maximin”
 
@@ -476,14 +464,12 @@ designed with the practical idea in mind that there will seldom or never
 be a comparison in which the least advantaged will have the exactly same
 level of well-being in both scenarios. Yet for the theoretical case of a
 such comparison (unclear why we need it; it is not the case in the above
-example!) an extension to the Maximin rule has been developed (cf. <span
-id="ref:RNDsnmRiHk1LE"
-label="ref:RNDsnmRiHk1LE">\[ref:RNDsnmRiHk1LE\]</span>Rawls 2005, p.
-83): It says that in the case that the least advantaged are at the same
-level in both scenarios, the second-least advantaged must be regarded.
-And if the second-least advantaged are also at the same level, then the
-third-least advantaged must be regarded, and so on. Because it resembles
-a lexicographical sorting algorithm, the extended rule is called the
+example!) an extension to the Maximin rule has been developed (cf. ): It
+says that in the case that the least advantaged are at the same level in
+both scenarios, the second-least advantaged must be regarded. And if the
+second-least advantaged are also at the same level, then the third-least
+advantaged must be regarded, and so on. Because it resembles a
+lexicographical sorting algorithm, the extended rule is called the
 Leximin rule. It is most clearly formulated as a recursive selection
 function which outputs the better population of two populations whose
 members are sorted in ascending order according to their well-being:
@@ -559,23 +545,17 @@ circumvent the problem of the incomparability of people within the
 neutral range which I have just touched upon. On the other hand, there
 exists an established ethical theory which justifies the existence of
 this level and explains what value it should take. The theory is average
-utilitarianism and one kind of justification for it is found in <span
-id="ref:RNDwOOuENjFv9"
-label="ref:RNDwOOuENjFv9">\[ref:RNDwOOuENjFv9\]</span>Harsanyi 1955.
-Average utilitarianism is a highly controversial theory, specifically
-but not only when it is understood as a complete moral theory rather
-than only a theory of goodness (cf. <span id="ref:RND9Y2Bm9Fcuq"
-label="ref:RND9Y2Bm9Fcuq">\[ref:RND9Y2Bm9Fcuq\]</span>Broome 2012, pp.
-50-54; <span id="ref:RNDDzRwTCjv0i"
-label="ref:RNDDzRwTCjv0i">\[ref:RNDDzRwTCjv0i\]</span>Arrhenius, Ryberg,
-& Tännsjö 2017, sec 2.1.1; <span id="ref:RNDyIVTex1fnq"
-label="ref:RNDyIVTex1fnq">\[ref:RNDyIVTex1fnq\]</span>Rawls 2005, pp.
-167-175, 572f). But at least it is a consistent ethical theory which is
-not only able to account for many other ethical intuitions but also to
-answer our quantitative and justificatory questions regarding the
-neutral level of well-being. The welfare function of average
-utilitarianism states that general welfare is the average of all
-individual well-being:
+utilitarianism and one kind of justification for it is found in (<span
+class="citeproc-not-found"
+data-reference-id="harsanzi_1955">**???**</span>). Average
+utilitarianism is a highly controversial theory, specifically but not
+only when it is understood as a complete moral theory rather than only a
+theory of goodness (cf. ; ; ). But at least it is a consistent ethical
+theory which is not only able to account for many other ethical
+intuitions but also to answer our quantitative and justificatory
+questions regarding the neutral level of well-being. The welfare
+function of average utilitarianism states that general welfare is the
+average of all individual well-being:
 
 Definition 5: Average utilitarianism
 
@@ -597,13 +577,10 @@ neutrality by modifying the intuition of neutrality and assuming a
 neutral level instead of a neutral range. As a result, the intuition is
 consistent, calculable, and maybe even justified (is the latter
 investigated here or without scope). Average utilitarianism plays (in
-this case) a revisionist role, a theory of moral error (cf. <span
-id="ref:RNDPRdjZzChhe"
-label="ref:RNDPRdjZzChhe">\[ref:RNDPRdjZzChhe\]</span>Mackie 1979, p.
-35): It tells us to slightly adjust our intuition – to sharpen it – so
-that it is consistent in itself and in its relation to other moral
-judgments. This is an acceptable, maybe desirable intervention to our
-intuitions.
+this case) a revisionist role, a theory of moral error (cf. ): It tells
+us to slightly adjust our intuition – to sharpen it – so that it is
+consistent in itself and in its relation to other moral judgments. This
+is an acceptable, maybe desirable intervention to our intuitions.
 
 Furthermore, this theoretical sharpening would not even necessarily
 change our application of the intuition of neutrality. This is because
@@ -613,15 +590,11 @@ I refer to ‘measurement uncertainty’ as used in statistics and the
 quantitative sciences. The uncertainty in question is quantifiable, so
 in it falls into the decision-theoretic category of risk and not into
 the decision-theoretic category of uncertainty. Measurement uncertainty
-is a well-developed theory (see <span id="ref:RND01V7wRHfk9"
-label="ref:RND01V7wRHfk9">\[ref:RND01V7wRHfk9\]</span>Runge 2007).
-Unlike the approaches of introducing indeterminacy in the forms of
-incommensurateness or vagueness – which are pursued and discarded as a
-solution to the argument against neutrality in <span
-id="ref:RNDOSiB2XiJlM"
-label="ref:RNDOSiB2XiJlM">\[ref:RNDOSiB2XiJlM\]</span>Broome 2004, pp.
-164-183 – uncertainty does not suffer from difficult problems such as
-greediness (aha what does that mean? explain it shortly?).
+is a well-developed theory (see ). Unlike the approaches of introducing
+indeterminacy in the forms of incommensurateness or vagueness – which
+are pursued and discarded as a solution to the argument against
+neutrality in – uncertainty does not suffer from difficult problems such
+as greediness (aha what does that mean? explain it shortly?).
 
 The neutral value is affected by two kinds of uncertainty: The first
 kind of uncertainty arises from its definition. Sensitivity analysis of
@@ -633,13 +606,10 @@ In both cases, the uncertainty arises from the difficulty to quantify
 the personal well-being of existing or hypothetical persons. These
 uncertainties are not on a theoretical level. On the theoretical level
 it has been questioned that such quantifications are metaphysically and
-psychologically possible at all (cf. <span id="ref:RNDA24nrQa53E"
-label="ref:RNDA24nrQa53E">\[ref:RNDA24nrQa53E\]</span>Harsanyi 1955, pp.
-317-319). On the practical level, these quantifications are de facto
-happening (<span id="ref:RNDPDFrWFZort"
-label="ref:RNDPDFrWFZort">\[ref:RNDPDFrWFZort\]</span>Broome 2004, ch.
-9) but there is a great level of uncertainty attached to them (elaborate
-on thisin two three sents? its interesting).
+psychologically possible at all (cf. ). On the practical level, these
+quantifications are de facto happening (Broome 2004 ch. 9), but there is
+a great level of uncertainty attached to them (elaborate on thisin two
+three sents? its interesting).
 
 Person q from Proof 1 is at different levels in scenario A and B. We can
 interpret the neutral range as a neutral level u0 = u1 + (u2 - u1) / 2
@@ -777,14 +747,12 @@ person could contradict another person from the same population. As we
 are concerned with population ethics here, where persons will usually
 somehow consider the whole population for their evaluation, this is not
 necessarily a problem. A necessary problem is the time-dependence of the
-evaluation, which is pointed out in <span id="ref:RND8yvQ79TSk8"
-label="ref:RND8yvQ79TSk8">\[ref:RND8yvQ79TSk8\]</span>Broome 2004, p.
-75: “You choose rightly, but it later turns out you chose wrongly.
-Indeed, it may turn out that you ought later to undo what you rightly
-did. Moreover, you might be able to foresee even as you choose A that
-just this would happen. This is a most implausible sort of incoherence
-in your activity.” This sounds like a problem at first, but in fact it
-is well acceptable.
+evaluation, which is pointed out in : “You choose rightly, but it later
+turns out you chose wrongly. Indeed, it may turn out that you ought
+later to undo what you rightly did. Moreover, you might be able to
+foresee even as you choose A that just this would happen. This is a most
+implausible sort of incoherence in your activity.” This sounds like a
+problem at first, but in fact it is well acceptable.
 
 (one WEAK possible objection is the idea that) There is no such thing as
 inconsistency between actions. (This needs SEP backing!!) Such a concept
@@ -921,17 +889,35 @@ intuition. The intuition of neutrality might actually be right.
 -   impact on climate change? we need not care about unborn people and
     can make more straight calculations
 
-8120 words, 49645 49652 49658 49664 49670 49676 characters (Pomerenke
-2017)
+8044 words, 49645 49652 49658 49664 49670 49676 49682 49688 49730 49700
+49706 49712 49718 49724 49730 49736 49742 49748 49754 49760 49766 49772
+49778 49024 49030 49036 49042 49336 49357 49379 49391 49388 49403 49276
+49282 49288 49293 49297 49314 49321 49327 49334 49338 49344 49350 49358
+49364 49371 49376 49382 49377 49384 49390 49396 49401 49407 49413 49420
+49425 49431 49437 49443 49449 49456 49462 49468 49473 49479 49485 49303
+49309 49322 49327 49334 49338 49344 49631 49640 49646 49651 49657 49605
+49583 49598 49604 49606 49619 49626 49633 49640 49643 49649 49658 49664
+49670 49669 49674 49680 49684 49690 49662 49668 49711 49706 49712 49718
+49724 49730 49750 49757 49709 49713 49719 49732 49738 49637 49639 49652
+49659 49666 49678 49669 49675 49681 49687 49693 49699 49723 49729 49735
+characters
 
 *Note:* Source files and bibliography for this document are publicly
 available [on Github](https://github.com/davidpomerenke/ba).
 
-Harsanyi, John C. 1955. “Cardinal Welfare, Individualistic Ethics, and
-Interpersonal Comparisons of Utility.” *Journal of Political Economy* 63
-(4): 309–21. <https://doi.org/10/cdh3fr>.
+Broome, John. 2004. *Weighing Lives*. New York: Oxford University Press.
 
-Pomerenke, David. 2017. “Nach Welchen Prinzipien Sollte Der Staat Die
-Verteilung von Gütern Gestalten? Eine Systematische Darstellung Der
-Diskussion Zwischen John Rawls Und John Harsanyi.” Hausarbeit. Konstanz.
-<https://archive.org/details/rawls_vs_harsanyi>.
+———. 2012. *Climate Matters: Ethics in a Warming World (Norton Global
+Ethics Series)*. WW Norton; Company.
+
+Osborne, Martin J. 1997. “Pareto Efficiency.”
+<https://www.economics.utoronto.ca/osborne/2x3/tutorial/PE.HTM>.
+
+Rawls, John. 2005. *A Theory of Justice*. Original ed. Cambridge,
+Massachusetts: Belknap Press.
+
+Samuelson, Paul A., and William D. Nordhaus. 2010. *Economics*. 19th ed.
+The McGraw-Hill Series Economics. Boston: McGraw-Hill Irwin.
+
+Sen, Amartya, and James Eric Foster. 1997. *On Economic Inequality*.
+Clarendon Press.

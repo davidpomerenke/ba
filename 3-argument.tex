@@ -1,10 +1,29 @@
 \section{The argument against neutrality}
 
+\begin{Theorem}{The argument against neutrality}{}
+The intuition of neutrality (Def.~\ref{def:ion}) is false.
+\end{Theorem}
+
 The argument against neutrality (\citeNP[p.~177f.]{broome_2012}, where the figure below is also copied from) concludes that the intuition of neutrality is inconsistent. The argument is a version of the mere addition paradox \cite[p.~148]{broome_2004} and a modification of the adoption problem \cite[p.~161]{broome_2004}. It is based on the following counter-example to the intuition of neutrality:  
 
+\begin{Scenario}{The argument against neutrality}{}
+\begin{enumerate}
+\item[(A1)]
+Let A, B, C be scenarios with  
+corresponding distributions of well-being $u_A, u_B, u_C$ and \\
+populations $P_A = P_0, P_B = P_C = P_0 \cup P+$, and \\
+some person $p \in P_0$ \\
+such that $u_A(P_0 \setminus \{p\}) = u_B(P_0 \setminus \{p\}) = u_C(P_0 \setminus \{p\}).$
+\item[(A2)] Let $u_B(p) > u_A(p).$
+\item[(A3)] Let $u_C(p) < u_A(p).$
+\item[(A4)] Let $P_+ = \{q\}$ with $u_B(q), u_C(q) \in [u_1, u_2]$
+\item[(A5)] Let $u_B(p) + u_B(q) < u_C(p) + u_C(q).$
+\item[(A6)] Let $g_B(P_0 \cup P_+) > g_C(P_0 \cup P+)$. 
+\end{enumerate}
 \begin{center}
   \includegraphics[width=0.8\textwidth]{3-fig-1}
 \end{center}
+\end{Scenario}
 
 There are three scenarios A, B and C. They share the same population, except that one additional person exists in both B and C. In both B and C the additional person has a level of well-being within the neutral range. The argument is structured into two major steps:  
 
@@ -16,28 +35,31 @@ Whilst the argument above is intuitively plausible, it has two other important p
 
 The following formalization concisely sums up the argument presented above. It is structured in technical premises (P...), the assumptions that make up the setting of the counter-example (A...), and the conclusions drawn (C...). We can infer from the contradiction in (C8) that at least one of the premises and assumptions must be false. The assumptions merely describe the setting of the scenarios as depicted in the figure above. They are simply the assumptions making up the counter-example and there is no reason to doubt them within this proof. Moreover, premises (P2) and (P3) appear to be very plausible. As a consequence, the intuition of neutrality must be the false premise.  
 
-\begin{Theorem}{The argument against neutrality}{arg}
-\begin{enumerate}
-\item[(P1)] Intuition of neutrality (see Definition \ref{def:ion})
-\item[(P2)] Transitivity of betterness: \\
-  $
-    u_X(P_X) > u_Y(P_Y) \wedge u_Y(P_Y) > u_Z(P_Z) \\
-    \rightarrow
-    u_X(P_X) > u_Z(P_Z)
-  $
-\item[(P3)] Pareto domination
+\begin{Premise}{Intuition of neutrality}{p1}
+The intuition of neutrality is right (see Definition \ref{def:ion}).
+\end{Premise}
+
+\begin{Premise}{Transitivity of betterness}{p2}
+$
+  u_X(P_X) > u_Y(P_Y) \wedge u_Y(P_Y) > u_Z(P_Z) \\
+  \rightarrow
+  u_X(P_X) > u_Z(P_Z)
+$
+\end{Premise}
+
+\begin{Premise}{Pareto domination}{p3}
   \begin{enumerate}
   \item
     $
       \exists p \in P:
     $ \\
-    \hspace{1cm} $
+    \hspace*{1cm} $
       u_X(a) > u_Y(p) \ \wedge
     $ \\
-    \hspace{1cm} $
+    \hspace*{1cm} $
       \forall q \in P \setminus \{p\}: u_X(q) = u_Y(q) )
     $ \\
-    \hspace{.5cm} $
+    \hspace*{.5cm} $
       \rightarrow
       u_X(P) > u_Y(P) 
     $
@@ -45,43 +67,62 @@ The following formalization concisely sums up the argument presented above. It i
     $
       \exists p \in P:
     $ \\
-    \hspace{1cm} $
+    \hspace*{1cm} $
       u_X(a) < u_Y(p) \ \wedge
     $ \\
-    \hspace{1cm} $
+    \hspace*{1cm} $
       \forall q \in P \setminus \{p\}: u_X(q) = u_Y(q) )
     $ \\
-    \hspace{.5cm} $
+    \hspace*{.5cm} $
       \rightarrow
       u_X(P) < u_Y(P) 
     $
   \end{enumerate}
-\item[(P4)] Fair aggregation principle: \\
+\end{Premise}
+
+\begin{Premise}{Fair aggregation principle}{p4}
+  \hspace*{.5cm} $
+    \sum_{p\in P} u_X(p) > \sum_{p\in P} u_Y(p) \ \wedge
+  $ \\
+  \hspace*{.5cm} $g_X(P) < g_Y(P)
+  $ \\
   $
-    \sum_{p\in P} u_X(p) > \sum_{p\in P} u_Y(p) \ \wedge \\
-    g_X(P) < g_Y(P) \\
     \rightarrow u_X(P) > u_Y(P)
   $ \\
   with suitable inequality function $g$ (see above).
+\end{Premise}
+
+\begin{Proof}{The argument against neutrality}{}
+\begin{enumerate}
+\item[(C1)]
+$(P3) \wedge (A1) \wedge (A2) \ \Rightarrow \ u_B(P_0) > u_A(P_0)$
+\item[(C2)]
+$(P3) \wedge (A1) \wedge (A3) \ \Rightarrow \ u_C(P_0) < u_A(P_0)$
+\item[(C3)]
+$(C1) \wedge (P1) \wedge (A4) \ \Rightarrow \ u_B(P_0 \cup P_+) > u_A(P_0)$
+\item[(C4)]
+$(C2) \wedge (P1) \wedge (A4) \ \Rightarrow \ u_C(P_0 \cup P_+) < u_A(P_0)$
+\item[(C5)]
+$(C3) \wedge (C4) \wedge (P2) \ \Rightarrow \ u_B(P_0 \cup P_+) > u_C(P_0 \cup P_+)$
+\item[(C6)]
+$(A1) \wedge (A5) \ \Rightarrow \ \sum_{x\in P_0} u_B(x) < \sum_{x \in P_0} u_C(x)$
+\item[(C7)]
+$(C6) \wedge (P4) \wedge (A6) \ \Rightarrow  \ u_B(P_0 \cup P_+) < u_C(P_0 \cup P_+)$
+\item[(C8)]
+$(C4) \ \Leftrightarrow \ \not (C7)$
+\item[(C9)]
+$(C8) \wedge (A1-A6) \wedge (P2) \wedge (P3) \wedge (P4) \ \Rightarrow \ \not (P1)$
 \end{enumerate}
-
-\begin{comment}
-(A1) & Let A, B, C be scenarios with  
-
-corresponding distributions of well-being uA, uB, uC and  
-
-populations PA = P0, PB = PC = P0 ${\cup}$ P+, and  
-
-some person p ${\in}$ P0  
-
-such that uA(P0 ${\setminus}$ \{p\}) = uB(P0 ${\setminus}$ \{p\}) = uC(P0 ${\setminus}$ \{p\}). \\ (A2) & Let uB(p) {\textgreater} uA(p).\\ (A3) & Let uC(p) {\textless} uA(p).\\ (A4) & Let P+ = \{q\} with uB(q), uC(q) ${\in}$ [u1, u2]\\ (A5) & Let uB(p) + uB(q) {\textless} uC(p) + uC(q).\\ (A6) & Let gB(P0 ${\cup}$ P+) {\textgreater} gC(P0 ${\cup}$ P+). 
-
-––––––––––––––––––––––––––––––––––––––––––––––\\ (C1) & (P3) ${\wedge}$ (A1) ${\wedge}$ (A2) \ $\Rightarrow $ \ uB(P0) {\textgreater} uA(P0)\\ (C2) & (P3) ${\wedge}$ (A1) ${\wedge}$ (A3) \ $\Rightarrow $ \ uC(P0) {\textless} uA(P0)\\ (C3) & (C1) ${\wedge}$ (P1) ${\wedge}$ (A4) \ $\Rightarrow $ \ uB(P0 ${\cup}$ P+) {\textgreater} uA(P0)\\ (C4) & (C2) ${\wedge}$ (P1) ${\wedge}$ (A4) \ $\Rightarrow $ \ uC(P0 ${\cup}$ P+) {\textless} uA(P0)\\ (C4) & (C3) ${\wedge}$ (C4) ${\wedge}$ (P2) \ $\Rightarrow $ \ uB(P0 ${\cup}$ P+) {\textgreater} uC(P0 ${\cup}$ P+)\\ (C6) & (A1) ${\wedge}$ (A5) \ $\Rightarrow $ \ ${\sum}$x${\in}$P0uB(x) {\textless} ${\sum}$x${\in}$P0uC(x)\\ (C7) & (C6) ${\wedge}$ (P4) ${\wedge}$ (A6) \ $\Rightarrow $ \ uB(P0 ${\cup}$ P+) {\textless} uC(P0 ${\cup}$ P+)\\ (C8) & (C4) \ $\Leftrightarrow $ \ ¬ (C7) \\ (C9) & (C8) ${\wedge}$ (A1-A6) ${\wedge}$ (P2) ${\wedge}$ (P3) ${\wedge}$ (P4) \ $\Rightarrow $ \ ¬ (P1)\\ \end{supertabular} \end{flushleft}
-\end{comment}
-\end{Theorem}
+\end{Proof}
 
 There are two implications if this argument holds and the intuition of neutrality is inconsistent (cf. \citeNP[p.~411]{broome_2005}: First, we as a society would have to develop a different, consistent principle to replace the intuition. We do not even currently know whether population changes should be evaluated as positive or as negative, just that they cannot simply be evaluated as neutral. The finding of a new principle with wide acceptance would certainly present a major societal task and require many years of discourse. Second, we would need to gain better knowledge of which actions lead to which consequences with respect to population changes. Only then would we probably be able to apply a principle which is not based on neutrality. This requires new scientific analysis and simulation because such predictions have often been omitted in the past (\citeNP[p.~402]{broome_2005}; \citeNP[p.~115f]{broome_2012}). 
 
-\citeNP{broome_2004} develops five possible modifications to respond to the argument against neutrality (see p. 149):  
+\citeNP{broome_2004} develops five possible modifications to respond to the argument against neutrality (see p.~149):  
 
-\begin{enumerate} \item intransitivity of the betterness relation \item conditional goodness \item relative goodness \item indeterminacy or vagueness of the betterness relation \item a single neutral level \end{enumerate} The transitivity of the betterness relation is plausibly defended in \label{ref:RNDLa97xVELwW}Broome 2004, p. 151f. I will pursue a somewhat related approach to (b) and (c), focused more on justification, in the third objection. The second objection will be very similar to what is developed in (d) but it will also be compatible with (e). Whilst (P1) is discussed in (a), (P2) and (P3) have not been discussed so far. This is what I will do in the first objection.  
+\begin{enumerate} 
+\item intransitivity of the betterness relation 
+\item conditional goodness 
+\item relative goodness 
+\item indeterminacy or vagueness of the betterness relation \item a single neutral level 
+\end{enumerate}
+The transitivity of the betterness relation is plausibly defended in \citeNP[p.~151f]{broome_2004}. I will pursue a somewhat related approach to (b) and (c), focused more on justification, in the third objection. The second objection will be very similar to what is developed in (d) but it will also be compatible with (e). Whilst (P1) is discussed in (a), (P2) and (P3) have not been discussed so far. This is what I will do in the first objection.  

@@ -4,7 +4,7 @@ all: count pdf clean
 
 count: thesis.tex
 	detex thesis.tex | wc -w >  count_words.tex
-	detex thesis.tex | wc -m >> count_chars.tex
+	detex thesis.tex | wc -m > count_chars.tex
 
 pdf: thesis.tex count
 	pdflatex -interaction=nonstopmode thesis.tex
