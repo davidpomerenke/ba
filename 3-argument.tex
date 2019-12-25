@@ -16,27 +16,57 @@ Whilst the argument above is intuitively plausible, it has two other important p
 
 The following formalization concisely sums up the argument presented above. It is structured in technical premises (P...), the assumptions that make up the setting of the counter-example (A...), and the conclusions drawn (C...). We can infer from the contradiction in (C8) that at least one of the premises and assumptions must be false. The assumptions merely describe the setting of the scenarios as depicted in the figure above. They are simply the assumptions making up the counter-example and there is no reason to doubt them within this proof. Moreover, premises (P2) and (P3) appear to be very plausible. As a consequence, the intuition of neutrality must be the false premise.  
 
-Proof 1: The argument against neutrality 
+\begin{Theorem}{The argument against neutrality}{arg}
+\begin{enumerate}
+\item[(P1)] Intuition of neutrality (see Definition \ref{def:ion})
+\item[(P2)] Transitivity of betterness: \\
+  $
+    u_X(P_X) > u_Y(P_Y) \wedge u_Y(P_Y) > u_Z(P_Z) \\
+    \rightarrow
+    u_X(P_X) > u_Z(P_Z)
+  $
+\item[(P3)] Pareto domination
+  \begin{enumerate}
+  \item
+    $
+      \exists p \in P:
+    $ \\
+    \hspace{1cm} $
+      u_X(a) > u_Y(p) \ \wedge
+    $ \\
+    \hspace{1cm} $
+      \forall q \in P \setminus \{p\}: u_X(q) = u_Y(q) )
+    $ \\
+    \hspace{.5cm} $
+      \rightarrow
+      u_X(P) > u_Y(P) 
+    $
+  \item
+    $
+      \exists p \in P:
+    $ \\
+    \hspace{1cm} $
+      u_X(a) < u_Y(p) \ \wedge
+    $ \\
+    \hspace{1cm} $
+      \forall q \in P \setminus \{p\}: u_X(q) = u_Y(q) )
+    $ \\
+    \hspace{.5cm} $
+      \rightarrow
+      u_X(P) < u_Y(P) 
+    $
+  \end{enumerate}
+\item[(P4)] Fair aggregation principle: \\
+  $
+    \sum_{p\in P} u_X(p) > \sum_{p\in P} u_Y(p) \ \wedge \\
+    g_X(P) < g_Y(P) \\
+    \rightarrow u_X(P) > u_Y(P)
+  $ \\
+  with suitable inequality function $g$ (see above).
+\end{enumerate}
+
 \begin{comment}
-\begin{flushleft} \tablefirsthead{} \tablehead{} \tabletail{} \tablelasttail{} \begin{supertabular}{m{1.201cm}m{13.639cm}} (P1) & Intuition of neutrality (see Def. 2)\\ (P2) & Transitivity of betterness: 
-
-uX(PX) {\textgreater} uY(PY) ${\wedge}$ uY(PY) {\textgreater} uZ(PZ) \ding{213} uX(PX) {\textgreater} uZ(PZ)\\ (P3) & Pareto domination: 
-
-\begin{enumerate} \item ( ${\exists}$ p ${\in}$ P :\ \  \ uX(a) {\textgreater} uY(p) \ ${\wedge}$  \end{enumerate} \ \ ${\forall}$ q ${\in}$ P ${\setminus}$ \{p\} : uX(q) = uY(q) )  
-
-\ding{213} \ \ uX(P) {\textgreater} uY(P) 
-
-\begin{enumerate} \item ( ${\exists}$ p ${\in}$ P :\ \  \ uX(a) {\textless} uY(p) \ ${\wedge}$  \end{enumerate} \ \ ${\forall}$ q ${\in}$ P ${\setminus}$ \{p\} : uX(q) = uY(q) )  
-
-\ding{213} \ \ uX(P) {\textless} uY(P)\\ (P4) & Fair aggregation principle: 
-
-${\sum}$p${\in}$PuX(p) {\textgreater} ${\sum}$p${\in}$PuY(p)  
-
-${\wedge}$ gX(P) {\textless} gY(P)  
-
-\ding{213} uX(P) {\textgreater} uY(P) 
-
-with suitable inequality function g (see above).\\ (A1) & Let A, B, C be scenarios with  
+(A1) & Let A, B, C be scenarios with  
 
 corresponding distributions of well-being uA, uB, uC and  
 
@@ -48,6 +78,7 @@ such that uA(P0 ${\setminus}$ \{p\}) = uB(P0 ${\setminus}$ \{p\}) = uC(P0 ${\set
 
 ––––––––––––––––––––––––––––––––––––––––––––––\\ (C1) & (P3) ${\wedge}$ (A1) ${\wedge}$ (A2) \ $\Rightarrow $ \ uB(P0) {\textgreater} uA(P0)\\ (C2) & (P3) ${\wedge}$ (A1) ${\wedge}$ (A3) \ $\Rightarrow $ \ uC(P0) {\textless} uA(P0)\\ (C3) & (C1) ${\wedge}$ (P1) ${\wedge}$ (A4) \ $\Rightarrow $ \ uB(P0 ${\cup}$ P+) {\textgreater} uA(P0)\\ (C4) & (C2) ${\wedge}$ (P1) ${\wedge}$ (A4) \ $\Rightarrow $ \ uC(P0 ${\cup}$ P+) {\textless} uA(P0)\\ (C4) & (C3) ${\wedge}$ (C4) ${\wedge}$ (P2) \ $\Rightarrow $ \ uB(P0 ${\cup}$ P+) {\textgreater} uC(P0 ${\cup}$ P+)\\ (C6) & (A1) ${\wedge}$ (A5) \ $\Rightarrow $ \ ${\sum}$x${\in}$P0uB(x) {\textless} ${\sum}$x${\in}$P0uC(x)\\ (C7) & (C6) ${\wedge}$ (P4) ${\wedge}$ (A6) \ $\Rightarrow $ \ uB(P0 ${\cup}$ P+) {\textless} uC(P0 ${\cup}$ P+)\\ (C8) & (C4) \ $\Leftrightarrow $ \ ¬ (C7) \\ (C9) & (C8) ${\wedge}$ (A1-A6) ${\wedge}$ (P2) ${\wedge}$ (P3) ${\wedge}$ (P4) \ $\Rightarrow $ \ ¬ (P1)\\ \end{supertabular} \end{flushleft}
 \end{comment}
+\end{Theorem}
 
 There are two implications if this argument holds and the intuition of neutrality is inconsistent (cf. \citeNP[p.~411]{broome_2005}: First, we as a society would have to develop a different, consistent principle to replace the intuition. We do not even currently know whether population changes should be evaluated as positive or as negative, just that they cannot simply be evaluated as neutral. The finding of a new principle with wide acceptance would certainly present a major societal task and require many years of discourse. Second, we would need to gain better knowledge of which actions lead to which consequences with respect to population changes. Only then would we probably be able to apply a principle which is not based on neutrality. This requires new scientific analysis and simulation because such predictions have often been omitted in the past (\citeNP[p.~402]{broome_2005}; \citeNP[p.~115f]{broome_2012}). 
 
