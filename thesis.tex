@@ -28,6 +28,10 @@
 \renewcommand{\baselinestretch}{1.5} 
 \renewcommand{\familydefault}{\sfdefault}
 
+% colorbox in math mode
+\usepackage{xcolor}
+\newcommand{\highlight}[1]{\colorbox{yellow}{$\displaystyle #1$}}
+
 % math font sans serif
 \usepackage[cm]{sfmath}
 
@@ -45,7 +49,7 @@
 \newcommand*\yo{\ding{51}}
 \newcommand*\no{\ding{53}}
 
-\title{The argument against neutrality}
+\title{The argument against neutrality about the size of population}
 \author{David Pomerenke}
 \date{2019/12/31}
 
@@ -53,9 +57,10 @@
 
 \begin{titlepage}
     \begin{center}
-        \vspace*{1cm}
         \huge
         The argument against neutrality\\
+        about the size of population\\
+        \vspace*{1cm}
         \large
         David Pomerenke\\
         \vfill
@@ -76,7 +81,12 @@
 
 \tableofcontents
 \vfill
-\small This work is licensed under a \href{http://creativecommons.org/licenses/by/4.0/}{Creative Commons Attribution 4.0 International License}. Source files and bibliography are publicly available \href{https://github.com/davidpomerenke/ba}{on Github}.
+
+\begin{center}
+    \footnotesize
+    This work is licensed under a \href{http://creativecommons.org/licenses/by/4.0/}{Creative Commons Attribution 4.0 International License}. \\
+    Source files and bibliography are publicly available \href{https://github.com/davidpomerenke/ba}{on Github}.
+\end{center}
 
 \input{0-introduction}
 \input{1-welfare}

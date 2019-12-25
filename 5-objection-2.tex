@@ -4,23 +4,30 @@
 
 I will start by explaining how the argument against neutrality requires the neutral range to be a proper range rather than a single level. Afterwards, I will try to make plausible why we should rather assume a single neutral level in theory and elucidate how, taking uncertainty into account, this single neutral level may approach a proper neutral range in practice.  
 
-So far, the formalization of the intuition of neutrality involves a neutral range [u1, u2] without specifying u1 or u2. As per Def. 2, the neutral range could in fact just be a single number with u1 = u2. But the argument against neutrality interprets the intuition of neutrality in a way that does not permit that the neutral range is just a single level of well-being: In order to neutralize and counter the positive difference of well-being of person p between scenarios B and C, the difference of well-being of person q must be non-zero and negative. So the neutral range must allow for such a difference, because the well-being of q is to be within the neutral range:  
-\begin{comment}
-\begin{flushleft} \tablefirsthead{} \tablehead{} \tabletail{} \tablelasttail{} \begin{supertabular}{m{1.201cm}m{13.639cm}} (C10) & (A2) \ \ ${\wedge}$ (A3) \ $\Rightarrow $ \ uB(p) {\textgreater} uC(p)\\ (C11) & (C10) ${\wedge}$ (A5) \ $\Rightarrow $ \ uB(q) {\textless} uC(q)\\ (C12) & (C11) ${\wedge}$ (A4) \ $\Rightarrow $ \ u1 {\textless} u2\\ \end{supertabular} \end{flushleft} Formally (C12), as an implication of the argument against neutrality, is a substantive specification of the intuition of neutrality. But contentwise (C12) is completely in line with the idea behind the intuition of neutrality (cf. \label{ref:RND8nKulQFNSj}Broome 2004, p. 146): Added lives are neutral except if they are at a very low or very high level of well-being (\label{ref:RNDjFXco5Qn80}Broome 2012, p. 172), so the neutral range is not only a proper range but also a rather big range.  
-\end{comment}
+So far, the formalization of the intuition of neutrality involves a neutral range [u1, u2] without specifying u1 or u2. As per Def. 2, the neutral range could in fact just be a single number with u1 = u2. But the argument against neutrality interprets the intuition of neutrality in a way that does not permit that the neutral range is just a single level of well-being: In order to neutralize and counter the positive difference of well-being of person p between scenarios B and C, the difference of well-being of person q must be non-zero and negative. So the neutral range must allow for such a difference, because the well-being of q is to be within the neutral range:
+
+\begin{Corollary}{Proper neutral range}{}
+\begin{enumerate}
+\item[(C10)] $(A2)  \wedge (A3) \Rightarrow u_B(p) > u_C(p)$
+\item[(C11)] $(C10) \wedge (A5) \Rightarrow u_B(q) < u_C(q)$
+\item[(C12)] $(C11) \wedge (A4) \Rightarrow u_1 < u_2$
+\end{enumerate}
+\end{Corollary}
+
+Formally (C12), as an implication of the argument against neutrality, is a substantive specification of the intuition of neutrality. But contentwise (C12) is completely in line with the idea behind the intuition of neutrality (cf. \citeNP[p.~146]{broome_2004}): Added lives are neutral except if they are at a very low or very high level of well-being \cite[p.~172]{broome_2012}, so the neutral range is not only a proper range but also a rather big range.  
 Even if the intuition of neutrality in this form empirically holds as a widespread intuition, it is still theoretically problematic. One of its implications is for example that we cannot say that a scenario with many added people at the highest well-being within the neutral range is better than a scenario with many added people at the lowest level of well-being. This implication – that well-being within the neutral range is incomparable – is at least controversial. But there are more pressing theoretical questions: What values should u1 and u2 assume? Imagine someone proposed as a specification that u1 should be at the level of well-being of the person at the top of the lowest 10\% in terms of well-being. How should we respond? How should we know whether that is correct? What kind of arguments would we have to employ in order to plead for a higher or lower value? What kind of ethical principle determines the range? 
 
 These problems do not arise if we restrict the intuition of neutrality to a single level of neutral well-being: (structure???) On the one hand, this would directly invalidate the argument against neutrality and circumvent the problem of the incomparability of people within the neutral range which I have just touched upon. On the other hand, there exists an established ethical theory which justifies the existence of this level and explains what value it should take. The theory is average utilitarianism and one kind of justification for it is found in \cite{harsanyi_1955}. Average utilitarianism is a highly controversial theory, specifically but not only when it is understood as a complete moral theory rather than only a theory of goodness (cf. \citeNP[pp.~50-54]{broome_2012}; \citeNP[sec~2.1.1]{arrhenius_2017}; \citeNP[pp.~167-175, 572f]{rawls_2005}). But at least it is a consistent ethical theory which is not only able to account for many other ethical intuitions but also to answer our quantitative and justificatory questions regarding the neutral level of well-being. The welfare function of average utilitarianism states that general welfare is the average of all individual well-being: 
 
-Definition 5: Average utilitarianism 
-
-w(P) = ${\sum}$p${\in}$P u(p) {\textbullet} {\textbar}P{\textbar}{}-1 
+\begin{Definition}{Average utilitarianism}{}
+$w(P) = \sum_{p \in P} u(p) \cdot |P|^{-1}$
+\end{Definition}
 
 This implies that in order to be neutral to existing welfare, the welfare of an added population must equal the welfare of the existing population. The notation is a bit sloppy in the following. It should be additionally specified that not every single added person needs to be at this neutral level, but rather the average of all added persons needs to be at this level.  
 
-Definition 6: The neutral range in average utilitarianism 
-
-[u1, u2] \ = u1 = u2 \ = u0 = w(P) 
+\begin{Definition}{The neutral range in average utilitarianism}{}
+$[u_1, u_2] = u_1 = u_2 = u_0 = w(P)$
+\end{Definition}
 
 So average utilitarianism provides a response to the argument against neutrality by modifying the intuition of neutrality and assuming a neutral level instead of a neutral range. As a result, the intuition is consistent, calculable, and maybe even justified (is the latter investigated here or without scope). Average utilitarianism plays (in this case) a revisionist role, a theory of moral error (cf. \citeNP[p.~35]{mackie_1979}): It tells us to slightly adjust our intuition – to sharpen it – so that it is consistent in itself and in its relation to other moral judgments. This is an acceptable, maybe desirable intervention to our intuitions.  
 
@@ -28,7 +35,7 @@ Furthermore, this theoretical sharpening would not even necessarily change our a
 
 The neutral value is affected by two kinds of uncertainty: The first kind of uncertainty arises from its definition. Sensitivity analysis of Def. 5 tells us that the uncertainty of the neutral level is composed of the average uncertainty of the well-being of all existing people. Second, the level of well-being of any actual person that is considered to be at the neutral level or not is also subject to some uncertainty. In both cases, the uncertainty arises from the difficulty to quantify the personal well-being of existing or hypothetical persons. These uncertainties are not on a theoretical level. On the theoretical level it has been questioned that such quantifications are metaphysically and psychologically possible at all (cf. \citeNP[pp.~317-319]{harsanyi_1955}). On the practical level, these quantifications are de facto happening \cite[ch.~9]{broome_2004}, but there is a great level of uncertainty attached to them (elaborate on thisin two three sents? its interesting).  
 
-Person q from Proof 1 is at different levels in scenario A and B. We can interpret the neutral range as a neutral level u0 = u1 + (u2 - u1) / 2 with an uncertainty of $\sigma $(u0) = plusmins (u2 - u1) / 2. As a consequence, the different values of well-being for person q in scenarios A and B are compatible with the assumption that there is a single neutral level with u0 with an uncertainty of $\sigma $(u0).  
+Person q from Proof 1 is at different levels in scenario A and B. We can interpret the neutral range as a neutral level u0 = u1 + (u2 - u1) / 2 with an uncertainty of $\sigma (u_0) = \pm (u_2 - u_1) / 2$. As a consequence, the different values of well-being for person q in scenarios A and B are compatible with the assumption that there is a single neutral level with u0 with an uncertainty of $\sigma(u0)$.  
 
 We can then accept the theoretical notion of a neutral level while at the same time both maintaining the practical idea of the intuition of neutrality and avoiding the argument against neutrality. (point to above, that the argument requires a proper range!) 
 

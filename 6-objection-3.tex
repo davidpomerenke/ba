@@ -6,7 +6,7 @@ während bei (2) der neutral range auf eine zahl verengt wird, wird er in (3) au
 
 The difference principle and average utilitarianism are probably the two most prominent welfare functions. In both of them the argument against neutrality does not hold for different reasons. Yet, although these frameworks are so well received, they both suffer from a justificatory problem. The specific justificatory problem which matters in our context is that the frameworks assume a universal moral domain. This means that they assume that in the first place every person should receive moral consideration. The universal domain is what I will question in this objection and it will lead to another solution of (response to) the argument against neutrality.  
 
-So far we have interpreted the intuition of neutrality as a principle which is applied only in a particular instance of comparing the welfare of two scenario: Whenever there are additional persons in one scenario who do not exist in the other scenario, then we can apply the intuition of neutrality. This is reflected in the conclusions in Proof 1. In (C3) and (C4) we have used the intuition of neutrality because there is a different number of persons in scenario A than there is in scenarios B and C. But we have not used the intuition in (C7) because we have been comparing scenarios B and C, and these scenarios have the same number of persons: “B and C contain the very same five people, so in comparing their values all five count as existing people.” (\label{ref:RNDdoGn25412e}Broome 2012, p.177; this has been marked as potentially problematic in a talk with Stefan Fischer.) 
+So far we have interpreted the intuition of neutrality as a principle which is applied only in a particular instance of comparing the welfare of two scenario: Whenever there are additional persons in one scenario who do not exist in the other scenario, then we can apply the intuition of neutrality. This is reflected in the conclusions in Proof 1. In (C3) and (C4) we have used the intuition of neutrality because there is a different number of persons in scenario A than there is in scenarios B and C. But we have not used the intuition in (C7) because we have been comparing scenarios B and C, and these scenarios have the same number of persons: “B and C contain the very same five people, so in comparing their values all five count as existing people.” (\citeNP[p.~177]{broome_2012}; this has been marked as potentially problematic in a talk with Stefan Fischer.) 
 
 A simple solution to the argument against against neutrality is to deny that in such cases all people count as existing people. If we regard person q (the person who exists in scenarios B and C only) as non-existent, then we cannot derive that C is better than B by direct comparison (C7), and the argument fails: (explain ‘ notation briefly) 
 \begin{comment}
@@ -18,20 +18,35 @@ A simple solution to the argument against against neutrality is to deny that in 
 \end{comment}
 This requires a revised version of the intuition of neutrality (P1). The only thing which is different from Def. 2 is that the intuition has been extended to comparisons of scenarios where the number of persons is the same: (very unclear! there is no numbers in the formula) 
 
-Definition 7: The intuition of neutrality (revised) 
-\begin{comment}
-${\exists}$u1, u2: ( ${\forall}$ x ${\in}$ P+ : uB(x) ${\in}$ [u1, u2] ) \ding{213} 
+\begin{Definition}{The intuition of neutrality (revised)}{} 
+$
+  \exists u_1, u_2: 
+$
 
-( uB(P0) {\textgreater} uA(P0) \ \ \ding{213} \ \ uB(P0 ${\cup}$ P+) {\textgreater} uA(P0 ${\cup}$ P+) ) ${\wedge}$  
+\hspace{.5cm} $
+  (\forall x \in P_+ : u_B(x) \in [u_1, u_2] )
+  \rightarrow 
+$
 
-( uB(P0) {\textless} uA(P0) \ \ \ding{213} \ \ uB(P0 ${\cup}$ P+) {\textless} uA(P0 ${\cup}$ P+) ) 
-\end{comment}
+\hspace{1cm} $
+  ( u_B(P_0) > u_A(P_0) 
+  \rightarrow 
+  u_B(P_0 \cup P_+) > u_A(P_0 \highlight{ \cup P_+}) ) 
+  \ \wedge
+$
+
+\hspace{1cm} $
+  ( u_B(P_0) < u_A(P_0) 
+  \rightarrow 
+  u_B(P_0 \cup P_+) < u_A(P_0 \highlight{ \cup P_+})) 
+$
+\end{Definition}
 
 But while this solution is compelling so far, it brings with it a formal problem. Thus far, we have not really needed to specify P0 and P+ any more than what is implicit in Def. 2: P0 is the population which exists in both scenarios and P+ is the population which exists only in scenario B. This is no longer implicit in Def. 7: P0 and P+ both exist in both scenarios. (this should probs go before the definition) There is no formal way to distinguish them. P+ are the people who are neutral with respect to general welfare if their well-being lies within the neutral range. And P+ are the same people in B and in C. But P+ could be any persons: P+ could be all persons, no persons, or an arbitrary selection of persons. So as they are not already formally specified we need to specify P+. It is obvious how we specify them:  
 
-\ \ Definition 8: Additional specification of the intuition of neutrality 
-
-\ \ P0 are the existing people and P+ are the non-existing people.  
+\begin{Definition}{Additional specification of the intuition of neutrality}{}
+$P_0$ are the existing people and $P_+$ are the non-existing people.
+\end{Definition}
 
 Unlike all the formal definitions above, this is a material definition, which is not a problem. The problem is that it is also a relative definition. Which people are existing and which are not depends on the time of evaluation. When we consider whether it is good or not that a baby is born, we arrive at different evaluations before and after the pregnancy of the baby’s parent. Before the pregnancy, the baby’s well-being has to be ignored because of the intuition of neutrality, but after the pregnancy, the baby’s well-being has to be considered. Imagine that we want to know whether it is positive or negative for the general welfare whether the baby suffers from a chronic disease. Then before the pregnancy we will derive that the chronic disease is neutral with respect to general welfare and after the pregnancy we will derive that it would be better for general welfare if the baby does not suffer from a such disease (is better / would have been better).  
 
