@@ -5,7 +5,7 @@
 The intuition of neutrality (Def.~\ref{def:ion}) is incorrect.
 \end{Theorem}
 
-The argument against neutrality (\citeNP[p.~177f]{broome_2012}, where the graphical figure below is also copied from) concludes that the intuition of neutrality is inconsistent. The argument is a version of the mere addition paradox \cite[p.~148]{broome_2004} and a modification of the adoption problem \cite[p.~161]{broome_2004}. The argument against neutrality is a reduction to the absurd: It assumes that the intuition of neutrality applies, deduces a contradiction, and thus concludes that the intuition is incorrect. 
+The argument against neutrality (described in \citeNP[p.~176f]{broome_2012}) concludes that the intuition of neutrality is inconsistent. The argument is a version of the mere addition paradox \cite[p.~148]{broome_2004} and a modification of the adoption problem \cite[p.~161]{broome_2004}. The argument against neutrality takes the logical form of a \emph{reduction to the absurd}: It assumes that the intuition of neutrality applies, deduces a contradiction, and thus concludes that the intuition is incorrect. This section summarizes and formalizes the argument as stated in \citeNP{broome_20014}, \citeNP{broome_2012}. 
 
 \begin{Premise}{Intuition of neutrality (P1)}{p1}
 The intuition of neutrality is right (see Definition \ref{def:ion}).
@@ -25,10 +25,11 @@ such that $u_A(P_0 \setminus \{p\}) = u_B(P_0 \setminus \{p\}) = u_C(P_0 \setmin
 \item[(A3)] Let $u_C(p) < u_A(p).$
 \item[(A4)] Let $P_+ = \{q\}$ with $u_B(q), u_C(q) \in [u_1, u_2]$
 \item[(A5)] Let $u_B(p) + u_B(q) < u_C(p) + u_C(q).$
-\item[(A6)] Let $g_B(P_0 \cup P_+) > g_C(P_0 \cup P+)$. 
+\item[(A6)] Let inequality $g_B(P_0 \cup P_+) > g_C(P_0 \cup P+)$ (see below). 
 \end{enumerate}
 \begin{center}
   \includegraphics[width=0.8\textwidth]{3-fig-1}
+  \scriptsize The well-being of the persons in scenarios A, B and C with corresponding utility functions $u_a$, $u_b$, $u_c$. Copied from \citeNP[p.~177]{broome_2012}.
 \end{center}
 \end{Counterexample}
 
@@ -38,15 +39,15 @@ First, scenario A is being compared to scenario B and to scenario C. The additio
 
 \begin{Premise}{Transitivity of betterness (P2)}{p2}
 $
-  u_X(P_X) > u_Y(P_Y) \wedge u_Y(P_Y) > u_Z(P_Z) \\
+  u_X(P) > u_Y(Q) \wedge u_Y(Q) > u_Z(R) \\
   \rightarrow
-  u_X(P_X) > u_Z(P_Z)
+  u_X(P) > u_Z(R)
 $
 \end{Premise}
 
-Second, scenario B is compared directly to scenario C. Both scenarios comprise the same people, so there is no additional person in either scenario who could be neglected. The person who is not present in scenario A and has therefore been neglected above is much better off in scenario C than in scenario B. This big difference clearly outweighs the difference of the other person’s well-being in favour of scenario B. As there is moreover a higher equality in scenario C, scenario C obviously has a higher welfare than scenario B. This is in contradiction to the result of step one, so the counter-example refutes the intuition of neutrality, which has been its core assumption.  
+Second, scenario B is compared directly to scenario C. Both scenarios comprise the same people, so there is no additional person in either scenario who could be neglected. The person who is not present in scenario A and has therefore been neglected above is much better off in scenario C than in scenario B. This big difference clearly outweighs the difference of the other person’s well-being in favour of scenario B. As there is moreover a lower inequality in scenario C, scenario C has a higher welfare than scenario B. This is in contradiction to the result of step one, so the counter-example refutes the intuition of neutrality, which has been its core assumption.  
 
-Whilst the argument above is intuitively plausible, it has two other important premises \cite[p.~177f]{broome_2012}: First, if in two scenarios all persons have the same level of well-being except for one person who is better off in the second scenario, then the welfare in the second scenario is higher than in the first. Technically, the second scenario Pareto dominates the first \cite{osborne_1997}. 
+Whilst the argument above is intuitively plausible, it has two other important premises \cite[p.~177f]{broome_2012}: First, if in two scenarios all persons have the same level of well-being except for one person who is better off in the second scenario, then the welfare in the second scenario is higher than in the first. Technically, we can say that the second scenario Pareto dominates the first \cite{osborne_1997}. (I will come back to this notion in section \ref{sec:obj1}.)
 
 \begin{Premise}{Pareto domination (P3)}{p3}
   \begin{enumerate}
@@ -97,9 +98,9 @@ Second, if in two scenarios with the same population the sum of individual well-
 
 There are various ways to measure inequality, and the details need not concern us here. An excellent survey of one-dimensional inequality measures – as applied in welfare economics – is given in \citeNP{sen_1997}. The most prominent inequality measure is probably the Gini coefficient (see \citeNP{ceriani_2012}). Both of these premises appear to be very plausible, and they are dubbed "hard-to-doubt assumptions" in \citeNP[p.~176]{broome_2012}. 
 
-The following proof concisely sums up the argument presented above. It makes use of the technical premises (P...), the assumptions that make up the setting of the counter-example (A...), and the prior conclusions (C...). We can infer from the contradiction in (C8) that at least one of the premises and assumptions must be false. The assumptions merely describe the setting of the scenarios as depicted in the figure above. They are simply the assumptions making up the counter-example and there is no reason to doubt them within this proof. Moreover, premises (P2), (P3) and (P4) appear to be very plausible. As a consequence, the intuition of neutrality must be the false premise. 
+The following proof concisely sums up the argument presented above. It makes use of the technical premises (P...) and the assumptions that make up the setting of the counter-example (A...). We can infer from the contradiction in (C8) that at least one of the premises and assumptions must be false. The assumptions merely describe the setting of the scenarios as depicted in the figure above. They are simply the assumptions making up the counter-example and there is no reason to doubt them within this proof. Moreover, premises (P2), (P3) and (P4) appear to be very plausible. As a consequence, the intuition of neutrality must be the false premise. 
 
-\begin{Proof}{The argument against neutrality}{}
+\begin{Proof}{The argument against neutrality}{arg}
 \begin{enumerate}
 \item[(C1)] \hspace{1cm}
 $(P3) \wedge (A1) \wedge (A2) \Rightarrow \ u_B(P_0) > u_A(P_0)$
