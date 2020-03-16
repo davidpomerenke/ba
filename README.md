@@ -6,7 +6,7 @@
 
 - [Record on PhilPapers](https://philpapers.org/rec/POMTAA-5)
 
-## Cite
+## Citation
 ```bibtex
 @thesis{pomerenke_argument_2019,
 	type = {Bachelor's thesis},
