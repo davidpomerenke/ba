@@ -1,8 +1,8 @@
 # The argument against neutrality
 
-- [Download Thesis [PDF]](https://github.com/davidpomerenke/ba/blob/master/thesis.pdf)
+- [Download Thesis [PDF]](https://github.com/davidpomerenke/ba/raw/master/thesis.pdf)
 
-- [Download Bibliography [BibTex]](https://github.com/davidpomerenke/ba/blob/master/bibliography.bib)
+- [Download Bibliography [BibTex]](https://raw.githubusercontent.com/davidpomerenke/ba/master/bibliography.bib)
 
 - [Record on PhilPapers](https://philpapers.org/rec/POMTAA-5)
 
