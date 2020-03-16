@@ -24,7 +24,13 @@
 Many thanks to my supervisor and first reviewer [Stefan Fischer](https://philosofischer.com), my second reviewer [Jacob Rosenthal](https://www.philosophie.uni-konstanz.de/en/professorship-of-practical-philosophy/jacob-rosenthal/), and to Ilija Funk for very helpful comments!
 
 ## License
-This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).  
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+## Contributing
+- For comments, please create an issue for discussing them; I will then keep the issue open and link it in this README file. 
+- If you have referred to this thesis in your own work, I am happy link to your work in this README file, as a kind of forward-reference. 
+- If you find some errors, please create an issue or a pull request.
+- Thank you very much in advance for your contributions and suggestions! :)
 
 ## Preview
 
