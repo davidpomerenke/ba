@@ -10,12 +10,12 @@
 ```bibtex
 @thesis{pomerenke_argument_2019,
 	type = {Bachelor's thesis},
-    author = {Pomerenke, David},
+	author = {Pomerenke, David},
 	title = {The argument against neutrality about the size of population},
 	institution = {University of Konstanz},
 	month = dec,
 	year = {2019},
-    language = {en},
+	language = {en},
 	url = {https://github.com/davidpomerenke/ba}
 }
 ```
@@ -27,10 +27,16 @@ Many thanks to my supervisor and first reviewer [Stefan Fischer](https://philoso
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 ## Contributing
-- For comments, please create an issue for discussing them; I will then keep the issue open and link it in this README file. 
-- If you have referred to this thesis in your own work, I am happy link to your work in this README file, as a kind of forward-reference. 
+- For comments, please create an issue for discussing them; I will then keep the issue open and link it here. 
+- If you have referred to this thesis in your own work, I am happy link to your work here, as a kind of forward-reference. 
 - If you find some errors, please create an issue or a pull request.
 - Thank you very much in advance for your contributions and suggestions! :)
+
+## Comments
+- ...
+
+## Forward references
+- ...
 
 ## Preview
 
