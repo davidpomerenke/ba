@@ -1,6 +1,6 @@
 .PHONY = all count pdf html md clean
 
-all: count pdf html md
+all: count pdf
 
 count: thesis.tex
 	detex thesis.tex | wc -w >  count_words.tex
