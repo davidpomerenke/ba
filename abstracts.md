@@ -31,3 +31,18 @@ The result is that all three frameworks are compatible with the intuition of neu
 3. Assuming metaethical time-relativism (as is usually the case in contractarian theories), the intuition of neutrality can be modified by introducing a base scenario for comparisons. This modification is in line with the spirit of the original intuition of neutrality.
 
 As a result, the intuition of neutrality can be assumed in these frameworks. Whether the intuition of neutrality should be adopted is left open in this thesis. Assuming that ethics is a system which should be built up from people’s ethical convictions (a controversial claim on its own), an investigation into the empirical prevalence of the intuition should be conducted. If the intuition of neutrality is considered correct, it might simplify calculations with regard to pressing problems such as global warming.
+
+## Latina
+Quomodo aestimanda de quantitate populi mutationes? Intuitionem neutralitatis defendo, ad rei partem respondente. Intuitio dicit - ceteris paribus - homines ad populum addere neque bonum neque malum esse. Argumentum contra neutralitatem illam intuitionem reprehendit incongruam.
+
+Haec dissertatio dupliciter collationem facit: Primum, in formas logicas transformata ostendit et salutis oeconomicae conceptionem, et intuitionem neutralitatis, et argumentum contra neutralitatem. Secundum, hae formulationes ad argumenti contra neutralitatem dissectionem untur. Tres conceptiones morales adsumpta - qui sunt differentiae principium, medii utilitatis principium, contracti moralis doctrina -, horum relatio ad argumenti contra neutralitatem praemissas explicitas atque implicitas investigatur.
+
+Resultat quod omnes tres conceptiones (aut earum leves mutationes) cum intuitione neutralitatis congruunt; ergo in his conceptionibus argumentum contra intuitionem non obtinet:
+
+1. Differentiae principium in formulatio Leximin contradicit iustae aggregationis principium, argumenti contra neutralitatem praemissa.
+
+2. Argumentum contra neutralitatem impliciter praemittit intervallum neutrale esse verum intervallum. Medii utilitatis principium admonit leviter mutare intuitionem neutralitatis, ut sit nivellum neutralis et non verum intervallum neutralis. Hoc mutatio ad intuitionem neutralitatis incertitudinis causa similem esse habet.
+
+3. Relativitate temporis adsumpta (ut habitualis in contracti moralis doctrina), intuitio neutralitatis potest esse mutata, comparationis fundamenti idea inducente.
+
+In eventu, in his conceptionibus intuitionem neutralitatis adsumere possumus. An intuitio neutralitatis adsumenda, dissertatio non scit. Si (quod controversum est) moralia de hominum opinionibus statuenda, investigatio empirica per intuitionis neutralitatis praevalentiam conducere optanda est. Si intuitio sit vera, provocantes velut calefactionem globalem problemas computare simplificabit.
