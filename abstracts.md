@@ -15,7 +15,7 @@ Im Ergebnis sind alle drei Konzeptionen mit der Neutralitäts-Intuition (bzw. le
 
 3. Wenn wir metaethischen Zeit-Relativismus voraussetzen (wie es normalerweise in kontraktualistischen Theorien passiert), dann können wir die Neutralitäts-Intuition leicht abwandeln, indem wir uns bei Bevölkerungs-Vergleichen immer auf ein Bezugs-Szenario beziehen.
 
-In allen drei Fällen gilt das Anti-Neutralitäts-Argument nicht, und wir können die Neutralitäts-Inutition akzeptieren. Ob wir das tun sollten, wir in dieser Arbeit offen gelassen. Unter der (kontroversen) Annahme, dass Ethik ein System ist, das auf den ethischen Intuitionen der Menschen basieren sollte, wäre eine empirische Untersuchung sinnvoll, wie weit die Neutralitäts-Intuition tatsächlich verbreitet ist. Wenn wir annehmen, dass die Neutralitäts-Intuition richtig ist, dann erleichtert uns das einige Berechnungen im Hinblick auf drängende Probleme wie die Erderwärmung.
+In allen drei Fällen gilt das Anti-Neutralitäts-Argument nicht, und wir können die Neutralitäts-Inutition akzeptieren. Ob wir das tun sollten, wird in dieser Arbeit offen gelassen. Unter der (kontroversen) Annahme, dass Ethik ein System ist, das auf den ethischen Intuitionen der Menschen basieren sollte, wäre eine empirische Untersuchung sinnvoll, wie weit die Neutralitäts-Intuition tatsächlich verbreitet ist. Wenn wir annehmen, dass die Neutralitäts-Intuition richtig ist, dann erleichtert uns das einige Berechnungen im Hinblick auf drängende Probleme wie die Erderwärmung.
 
 ## English
 How should we as a society value changes in population size? I defend the intuition of neutrality, which answers a part of the question. It states that – other things being equal – it is ethically irrelevant whether or not additional people are added to a population. The argument against neutrality criticizes the intuition of neutrality as inconsistent.
@@ -28,14 +28,29 @@ The result is that all three frameworks are compatible with the intuition of neu
 
 2. The argument against neutrality has the implicit premise that the neutral range within which persons can be added to a population is a proper range. Average utilitarianism suggests to slightly modify the intuition of neutrality so that it uses a neutral level rather than a proper neutral range. Because of the uncertainty involved, this is in practice somewhat similar to the original intuition of neutrality.
 
-3. Assuming metaethical time-relativism (as is usually the case in contractarian theories), the intuition of neutrality can be modified by introducing a base scenario for comparisons. This modification is in line with the spirit of the original intuition of neutrality.
+3. Assuming metaethical time-relativism (as is usually the case in contractarian theories), the intuition of neutrality can be modified by introducing a base scenario for comparisons.
 
 As a result, the intuition of neutrality can be assumed in these frameworks. Whether the intuition of neutrality should be adopted is left open in this thesis. Assuming that ethics is a system which should be built up from people’s ethical convictions (a controversial claim on its own), an investigation into the empirical prevalence of the intuition should be conducted. If the intuition of neutrality is considered correct, it might simplify calculations with regard to pressing problems such as global warming.
+
+## Français
+Comment devons-nous, la société, évaluer les changements de la taille de la population? Je défends l'intuition de la neutralité, qui donne une réponse partielle à cette question. Elle dit que – toutes choses étant égales par ailleurs – il n'importe pas si des gens additionels sont ajoutés à une population. L'argument contre la neutralité critique l'intuition de la neutralité pour être inconsistant.
+
+Cette dissertation contribue deux choses: Premièrement, les conceptions de l'économique du bien-être, l'intuition de la neutralité, et l'argument contre la neutralité sont introduites en manière formelle. Deuxièmement, ces formalisations sont utilisées pour une analyse critique de l'argument contre la neutralité. Trois conceptions éthiques sont supposées - le principe de différence, le moyen utilitarisme, et le contractualisme -, et leur relation aux prémisses explicites et implicites de l'argument contre la neutralité est examinée.
+
+Le résultat est que toutes les trois conceptions sont compatibles avec l'intuition de la neutralité; donc l'argument contre la neutralité ne s'applique pas dans ces conceptions:
+
+1. Le principe de différence en sa formulation Leximin est en contradiction avec le principe de l'aggrégation juste, qui est une prémisse de l'argument contre la neutralité.
+
+2. L'argument contre la neutralité a la prémisse implicite que l'intervalle neutrale dans lequel des gens peuvent être ajoutés à une population est un intervalle propre. Le moyen utilitarisme suggère de modifier un peu l'intuition de la neutralité pour qu'elle utilise un seul niveau neutre au lieu qu'un intervalle propre neutre. À cause de l'incertitude associée, cette modification est en effet en quelque sort pareil à l'intuition original.
+
+3. Supposant relativisme temporel méta-éthique (comme ordinairement le cas dans les théories de contractualisme), l'intuition de la neutralité peut être modifié par introduire un scénario de base pour faire les comparaisons.
+
+Du coup, l'intuition de la neutralité peut être acceptée dans ces conceptions. En supposant que l'éthique est un système qui doit être construit sur la base des avies des gens (une réclamation polémique), des investigations empiriques entre la prévalence de l'intuition doivent être conduites. Si l'intuition de la neutralité est regardée comme correcte, elle peut simplifier les calculs en ce qui concerne des problèmes urgents comme le réchauffement de la planète.
 
 ## Latina
 Quomodo aestimanda de quantitate populi mutationes? Intuitionem neutralitatis defendo, ad rei partem respondente. Intuitio dicit - ceteris paribus - homines ad populum addere neque bonum neque malum esse. Argumentum contra neutralitatem illam intuitionem reprehendit incongruam.
 
-Haec dissertatio dupliciter collationem facit: Primum, in formas logicas transformata ostendit et salutis oeconomicae conceptionem, et intuitionem neutralitatis, et argumentum contra neutralitatem. Secundum, hae formulationes ad argumenti contra neutralitatem dissectionem untur. Tres conceptiones morales adsumpta - qui sunt differentiae principium, medii utilitatis principium, contracti moralis doctrina -, horum relatio ad argumenti contra neutralitatem praemissas explicitas atque implicitas investigatur.
+Haec dissertatio dupliciter collationem facit: Primum, in formas logicas transformata ostendit et salutis oeconomicae conceptionem et intuitionem neutralitatis et argumentum contra neutralitatem. Secundum, hae formulationes ad argumenti contra neutralitatem dissectionem utuntur. Tres conceptiones morales adsumpta - qui sunt differentiae principium, medii utilitatis principium, contracti moralis doctrina -, horum relatio ad argumenti contra neutralitatem praemissas explicitas atque implicitas investigatur.
 
 Resultat quod omnes tres conceptiones (aut earum leves mutationes) cum intuitione neutralitatis congruunt; ergo in his conceptionibus argumentum contra intuitionem non obtinet:
 
