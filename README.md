@@ -92,3 +92,11 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 ### Forward references
 
 - ...
+
+### Additional Literature
+
+Relevant literature published after this thesis was written.
+
+- A very clear overview over population ethics, and over its connection to climate policy as it is assumed in Broome 2004, Broome 2012, and in this thesis; a generalization of various welfare functions; an argument that policy decisions on climate change might not depend on population ethics because the relevant welfare functions might agree in the corner case. The argument is probably independent from the argument in this thesis, but one main conclusion can be derived from both arguments: The worry based on the argument against neutrality is unfounded.
+
+  > Mark Budolfson, Gustaf Arrhenius and Dean Spears. Forthcoming. Does Climate Change Policy Depend Importantly on Population Ethics? Deflationary Responses to the Challenges of Population Ethics for Public Policy. Climate Change and Philosophy. [[PhilPapers]](https://philpapers.org/rec/BUDDCC)
