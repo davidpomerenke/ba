@@ -1,22 +1,21 @@
-.PHONY = all count pdf html md clean
+.PHONY = all pdf html md clean
 
-all: count pdf
+# apt install texlive texlive-latex-extra texlive-bibtex-extra
 
-count: thesis.tex
-	detex thesis.tex | wc -w >  count_words.tex
-	detex thesis.tex | wc -m > count_chars.tex
+all: pdf clean
 
-pdf: thesis.tex count
+pdf: thesis.tex
 	pdflatex -interaction=nonstopmode thesis.tex
 	bibtex thesis.aux
 	pdflatex -interaction=nonstopmode thesis.tex
 	pdflatex -interaction=nonstopmode thesis.tex
+	mv thesis.pdf ../thesis.pdf
 
-html: thesis.tex count
+html: thesis.tex
 	make4ht thesis.tex "style, charset=utf-8" " -cunihtf -utf8" "" " -interaction=nonstopmode"
 	mv thesis.html index.html
 
-md: thesis.tex count
+md: thesis.tex
 	pandoc -t markdown_strict -s --bibliography=bibliography.bib --toc thesis.tex -o thesis.md
 	cat info.md thesis.md > readme.md
 
