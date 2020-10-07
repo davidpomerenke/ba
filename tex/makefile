@@ -17,7 +17,7 @@ html: thesis.tex
 
 md: thesis.tex
 	pandoc -t markdown_strict -s --bibliography=bibliography.bib --toc thesis.tex -o thesis.md
-	cat info.md thesis.md > readme.md
+	cat info.md thesis.md > readme.md`
 
 clean:
-	rm *.log thesis.4ct thesis.4tc thesis.aux thesis.bbl thesis.blg thesis.dvi thesis.idv thesis.lg thesis.out thesis.tmp thesis.toc thesis.xref thesis*.png 
+	rm *.log *.aux *.bbl *.blg *.out *.toc
