@@ -6,6 +6,14 @@
 
 - [Record on PhilPapers](https://philpapers.org/rec/POMTAA-5)
 
+## ⚠️ Note ⚠️
+
+Although this thesis has received an excellent grade, some errors have been pointed out:
+
+- Section 2.2, while formally correct, under closer inspection does not contribute to the argument of the thesis: The argument against neutrality can also be constructed using the difference principle rather than the principle of fair aggregation.
+- Section 2.3 contains some errors regarding the status of metaethical relativism and of contractarianism.
+- The intuition of neutrality may not be as relevant for climate policy as it is assumed in the thesis. Many thanks to Jacob Rosenthal for insisting on this issue. If you research this topic, make sure you understand its applicability first.
+
 ## Citation
 
 ```bibtex
